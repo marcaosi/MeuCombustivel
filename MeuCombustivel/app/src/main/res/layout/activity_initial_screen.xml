@@ -87,6 +87,6 @@
         android:textSize="30sp"
         android:elevation="6dp"
         android:stateListAnimator="@null"
-        android:id="@+id/initial_screen_novoAbastecimento"/>
+        android:id="@+id/initial_screen_newSupply_button"/>
 
 </RelativeLayout>
