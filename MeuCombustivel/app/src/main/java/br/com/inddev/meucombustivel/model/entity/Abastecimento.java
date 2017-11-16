@@ -13,7 +13,7 @@ public class Abastecimento {
     private Double precoPorLitro;
     private Long quilometragemAtual;
     private String posto;
-    private Timestamp dataHora;
+    private Long dataHora;
 
     public Long getId() {
         return id;
@@ -55,11 +55,11 @@ public class Abastecimento {
         this.posto = posto;
     }
 
-    public Timestamp getDataHora() {
+    public Long getDataHora() {
         return dataHora;
     }
 
-    public void setDataHora(Timestamp dataHora) {
+    public void setDataHora(Long dataHora) {
         this.dataHora = dataHora;
     }
 }
